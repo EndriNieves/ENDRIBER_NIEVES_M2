@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Events</title>
+    <link rel="shortcut icon" href="./assents/LogoAmazingEvents.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assents/style.css">
+</head>
+
+<body>
+
+    <!-- este es el navegador-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex flex-row mx-3">
+
+        <!-- esto es de la imagen -->
+        <div class="navbar navbar-expand-lg bg-body-tertiary d-flex">
+            <div class="container d-flex flex-row-reverse">
+                <a class="navbar-brand" href="#">
+                    <img class="bd-highlight mb-1" src="./assents/LogoAmazingEvents.png" alt="Bootstrap" width="150"
+                        height="45"></a>
+            </div>
+        </div>
+        <!-- estos son los botones del navegador-->
+
+        <div class="container-fluid bd-highlight mb-1 d-flex justify-content-end">
+            <a class="navbar-brand p-1 bd-highlight" href="index.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse d-flex " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="upcomingevents.html">Upcoming Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pastevents.html">Past Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="stats.html">Stats</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- este es el carrusel -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- este es el main -->
+    <main class="container">
+        <h1 class="text-center">Past Events</h1>
+        <!-- estas son las casillas de seleccion y buscar -->
+        <div class="contenedor-form d-flex justify-content-end">
+            <div class="categorias">
+                <form action="./assents/show_data.html">
+                    <label>
+                        Categoria 1
+                        <input type="radio" name="categoria" value="cat1">
+                    </label>
+                    <label>
+                        Categoria 2
+                        <input type="radio" name="categoria" value="cat2">
+                    </label>
+                    <label>
+                        Categoria 3
+                        <input type="radio" name="categoria" value="cat3">
+                    </label>
+                    <label>
+                        Categoria 4
+                        <input type="radio" name="categoria" value="cat4">
+                    </label>
+                    <label>
+                        Categoria 5
+                        <input type="radio" name="categoria" value="cat5">
+                    </label>
+                </form>
+            </div>
+            <nav class="navbar bg-body-tertiary mb-0">
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><img
+                                src="./assents/59cfc4d2d3b1936210a5ddc7.png" alt="" width="20"></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <!-- estas son las tarjetas -->
+
+        <div class="album py-3">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100" alt="...">
+                            <div class="card-body">
+                                <h2>Titulo</h2>
+                                <p class="card-text">Texto descriptivo</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">Precio</small>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100" alt="...">
+                            <div class="card-body">
+                                <h2>Titulo</h2>
+                                <p class="card-text">Texto descriptivo</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">Precio</small>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100" alt="...">
+                            <div class="card-body">
+                                <h2>Titulo</h2>
+                                <p class="card-text">Texto descriptivo</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">Precio</small>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100" alt="...">
+                            <div class="card-body">
+                                <h2>Titulo</h2>
+                                <p class="card-text">Texto descriptivo</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">Precio</small>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- este es el footer -->
+    <footer class="d-flex flex-wrap justify-content-between py-3 border-top bg-subtle">
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><img src="./assents/174855.png" width="50" alt=""> <svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use>
+                </svg></li>
+            <li class="ms-3"><img src="./assents/facebook-logo-3-1.png" alt="" width="50"> <svg class="bi" width="24"
+                    height="24">
+                    <use xlink:href="#facebook"></use>
+                </svg></li>
+
+            <li class="ms-3"><img src="./assents/134937.png" alt="" width="50"> <svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use>
+                </svg></li>
+        </ul>
+
+        <div class="col-md-2 d-flex align-items-end">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <h3>Cohort</h3>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
