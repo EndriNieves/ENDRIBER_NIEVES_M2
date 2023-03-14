@@ -19,12 +19,12 @@
 }
 
 #myCarousel{
-    height: 200px;
+    height: 300px;
 }
 
 .imgcarousel{
-    height: 200px;
-    object-fit: cover !important;
+    height: 300px;
+    object-fit: fill !important;
 }
 
 .contenedor-form{

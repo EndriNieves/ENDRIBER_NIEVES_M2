@@ -56,19 +56,19 @@
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+        <img src="./assents/collage1.png" class="d-inline w-100 imgcarousel" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+        <img src="./assents/cinema4.jpg" class="d-inline w-100 imgcarousel" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+        <img src="./assents/Collectivities-Party.jpg" class="d-inline w-100 imgcarousel" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+        <img src="./assents/Electronic-Fest.jpg" class="d-inline w-100 imgcarousel" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assents/corredores-distancia-maraton.jpg" class="d-inline w-100 imgcarousel" alt="...">
+        <img src="./assents/comicon.jpg" class="d-inline w-100 imgcarousel" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -90,35 +90,36 @@
         <form action="./assents/show_data.html">
           <label>
             Categoria 1
-            <input type="radio" name="categoria" value="cat1">
+            <input type="checkbox" name="categoria1" value="cat1">
           </label>
           <label>
             Categoria 2
-            <input type="radio" name="categoria" value="cat2">
+            <input type="checkbox" name="categoria2" value="cat2">
           </label>
           <label>
             Categoria 3
-            <input type="radio" name="categoria" value="cat3">
+            <input type="checkbox" name="categoria3" value="cat3">
           </label>
           <label>
             Categoria 4
-            <input type="radio" name="categoria" value="cat4">
+            <input type="checkbox" name="categoria4" value="cat4">
           </label>
           <label>
             Categoria 5
-            <input type="radio" name="categoria" value="cat5">
+            <input type="checkbox" name="categoria5" value="cat5">
           </label>
         </form>
       </div>
       <nav class="navbar bg-body-tertiary mb-0">
         <div class="container-fluid">
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit"><img src="./assents/59cfc4d2d3b1936210a5ddc7.png"
+            <input id="dataSearch" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="buttonSearch" class="btn btn-outline-success" type="submit"><img src="./assents/59cfc4d2d3b1936210a5ddc7.png"
                 alt="" width="20"></button>
           </form>
         </div>
       </nav>
+      <ul id="ulLista"></ul>
     </div>
 
     <!-- estas son las tarjetas -->
