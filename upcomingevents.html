@@ -86,35 +86,13 @@
         <h1 class="text-center">Upcoming Events</h1>
         <!-- estas son las casillas de seleccion y buscar -->
         <div class="contenedor-form d-flex justify-content-end">
-            <div class="categorias">
-                <form action="./assents/show_data.html">
-                    <label>
-                        Categoria 1
-                        <input type="radio" name="categoria" value="cat1">
-                    </label>
-                    <label>
-                        Categoria 2
-                        <input type="radio" name="categoria" value="cat2">
-                    </label>
-                    <label>
-                        Categoria 3
-                        <input type="radio" name="categoria" value="cat3">
-                    </label>
-                    <label>
-                        Categoria 4
-                        <input type="radio" name="categoria" value="cat4">
-                    </label>
-                    <label>
-                        Categoria 5
-                        <input type="radio" name="categoria" value="cat5">
-                    </label>
-                </form>
+            <div id="categorias" class="categorias">
             </div>
-            <nav class="navbar bg-body-tertiary mb-0">
+            <nav class="navbar mb-0">
                 <div class="container-fluid">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><img
+                        <input id="dataSearch" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button id="buttonSearch" class="btn btn-outline-success" type="submit"><img
                                 src="./assents/59cfc4d2d3b1936210a5ddc7.png" alt="" width="20"></button>
                     </form>
                 </div>
